@@ -23,7 +23,11 @@ public class Program {
 		for (Seller seller2 : list) {
 			System.out.println(seller2);
 		}
-//		list.stream().forEach(list -> System.out.println(list));
+		
+		System.out.println("teste 3 findAll");
+		list = dao.findAll();
+		System.out.println(dao.findAll());
+		list.stream().forEach((System.out::println);
 	} 
 
 }
